@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Heartfelt Apology 💖</title>
+
+<style>
+body {
+  background: #ffd6e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Georgia', serif;
+  overflow: hidden;
+}
+
+/* CARD */
+.card {
+  background: #fff0f5;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  max-width: 500px;
+  text-align: center;
+  color: #800000;
+  position: relative;
+  z-index: 2;
+  animation: fadeIn 2s forwards;
+}
+
+/* CORNER HEARTS */
+.heart-corner {
+  position: absolute;
+  font-size: 2em;
+  color: #ff4d6d;
+  opacity: 0.7;
+}
+
+.heart-top-right {
+  top: 10px;
+  right: 15px;
+}
+
+.heart-bottom-left {
+  bottom: 10px;
+  left: 15px;
+}
+
+/* TITLE */
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #ff4d6d;
+}
+
+p {
+  font-size: 1.15em;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* HEARTBEAT */
+.heart {
+  color: red;
+  font-size: 2em;
+  animation: heartbeat 1s infinite;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+@keyframes heartbeat {
+  0%,100% { transform: scale(1); }
+  50% { transform: scale(1.3); }
+}
+
+@keyframes fadeIn {
+  to { opacity: 1; }
+}
+
+/* FLOATING HEARTS */
+.floating-heart {
+  position: absolute;
+  bottom: -50px;
+  font-size: 20px;
+  animation: floatUp linear infinite;
+  opacity: 0.6;
+}
+
+@keyframes floatUp {
+  from {
+    transform: translateY(0);
+    opacity: 0.7;
+  }
+  to {
+    transform: translateY(-110vh);
+    opacity: 0;
+  }
+}
+
+/* different speeds & positions */
+.floating-heart:nth-child(1) { left: 10%; animation-duration: 8s; }
+.floating-heart:nth-child(2) { left: 25%; animation-duration: 10s; }
+.floating-heart:nth-child(3) { left: 40%; animation-duration: 7s; }
+.floating-heart:nth-child(4) { left: 60%; animation-duration: 9s; }
+.floating-heart:nth-child(5) { left: 75%; animation-duration: 11s; }
+.floating-heart:nth-child(6) { left: 90%; animation-duration: 8s; }
+
+.surprise-link {
+  color: #ff4d6d;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.surprise-link:hover {
+  text-decoration: underline;
+}
+</style>
+</head>
+
+<body>
+
+<!-- FLOATING HEARTS -->
+<div class="floating-heart">❤️</div>
+<div class="floating-heart">💖</div>
+<div class="floating-heart">💕</div>
+<div class="floating-heart">💗</div>
+<div class="floating-heart">💞</div>
+<div class="floating-heart">❤️</div>
+
+<div class="card">
+
+  <div class="heart-corner heart-top-right">❤️</div>
+  <div class="heart-corner heart-bottom-left">❤️</div>
+
+  <h1>Hi Loveee 💖</h1>
+
+  <p>Hi Lovee, Babyyyy, my future Wifey ❤️</p>
+
+  <p>
+    I just want to apologize for the times na hindi ko muna ginagamit ang utak ko bago kumilos.
+    I know sobrang insensitive ng mga actions ko at nakakasakit sa feelings mo.
+    I’m truly, truly sorry, love.
+  </p>
+
+  <p>
+    Alam ko rin na every special occasion na ganito, nag-aaway tayo kasi kulang ako sa effort para sa’yo.
+    Minsan inuuna ko pa ang iba bago ikaw, at sobra akong nagsisisi sa part na yun.
+  </p>
+
+  <p>
+    You know naman, love, na sobrang mahal na mahal kita.
+    Ayoko mawala ka sa buhay ko, gusto kita makasama habang buhay,
+    and I can't wait na malagay yung apilido ko sa pangalan mo ❤️
+    Mahal na mahal kita, iloveyou babyyy ❤️
+  </p>
+
+  <p>
+    I’m really sorry for my actions, and I promise I’ll keep trying para mas maging better partner para sa’yo.
+  </p>
+
+  <p>
+    Psst… may maliit na surprise para sa’yo!
+    <a href="https://jaspercanon11.github.io/Valentine/" target="_blank" class="surprise-link">Click mo ito!</a>
+  </p>
+
+  <div class="heart">❤️</div>
+
+  <p>PS: Boyfriend mong pogi 💖</p>
+
+</div>
+
+</body>
+</html>
